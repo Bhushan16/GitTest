@@ -12,9 +12,10 @@ public class Test {
 		a = in.nextInt();
 	      b = in.nextInt(); 
 	      c = a + b;
-	 
+	 int d;
+	 d=c+a;
 	      System.out.println("Sum of the integers = " + c);
-		
+	      System.out.println("Sum of the integers = " + d);
 	}
 
 }
